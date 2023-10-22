@@ -12,7 +12,6 @@ import java.util.List;
 public class Salle implements Serializable{
     private int id;
     private String code;
-  //  private List<Machine> machines;
 
     public Salle() {
     }
@@ -26,11 +25,6 @@ public class Salle implements Serializable{
         this.code = code;
     }
 
-  /*  public Salle(String code, List<Machine> machines) {
-        this.code = code;
-        this.machines = machines;
-    }
-*/
     public int getId() {
         return id;
     }
@@ -47,14 +41,6 @@ public class Salle implements Serializable{
         this.code = code;
     }
 
-   /* public List<Machine> getMachines() {
-        return machines;
-    }
-
-    public void setMachines(List<Machine> machines) {
-        this.machines = machines;
-    }
-*/
 
     @Override
     public String toString() {
