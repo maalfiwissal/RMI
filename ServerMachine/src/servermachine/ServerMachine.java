@@ -27,9 +27,7 @@ import util.HibernateUtil;
  */
 public class ServerMachine {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) throws RemoteException {
         try {
             IDao<Machine> dao = new  MachineService();
