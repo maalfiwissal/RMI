@@ -39,11 +39,6 @@ public class Salle implements Serializable{
         this.code = code;
     }
 
-  /*  public Salle(String code, List<Machine> machines) {
-        this.code = code;
-        this.machines = machines;
-    }
-*/
     public int getId() {
         return id;
     }
