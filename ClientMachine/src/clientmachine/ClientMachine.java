@@ -8,7 +8,6 @@ package clientmachine;
 import dao.IDao;
 import entities.Machine;
 import entities.Salle;
-//import entities.Salle;
 import java.net.MalformedURLException;
 import java.rmi.Naming;
 import java.rmi.NotBoundException;
@@ -22,9 +21,7 @@ import java.util.logging.Logger;
  */
 public class ClientMachine {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
         try {
             IDao<Machine> machine = (IDao<Machine>) Naming.lookup("rmi://localhost:1099/machine");
